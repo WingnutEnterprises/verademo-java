@@ -6,10 +6,10 @@ name: 2-Dockerize-Publish
 
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows: ["1-Checkout-Build-Artifact"]
-    types:
-      - completed
+  # workflow_run:
+  #   workflows: ["1-Checkout-Build-Artifact"]
+  #   types:
+  #     - completed
 
 jobs:
 
